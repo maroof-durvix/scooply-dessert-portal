@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd \"Source Code/scooply-client\" && npm install && npm run build",
+  "outputDirectory": "Source Code/scooply-client/dist/scooply-client/browser",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
