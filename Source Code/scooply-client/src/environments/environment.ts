@@ -1,2 +1,4 @@
-// Base URL of the ASP.NET Core API (see Scooply.Api/Properties/launchSettings.json)
-export const environment = { apiUrl: 'http://localhost:5080' };
+// Base URL of the ASP.NET Core API on MonsterASP.NET / RunASP.net
+export const environment = {
+  apiUrl: 'https://scooply-api.runasp.net'
+};
